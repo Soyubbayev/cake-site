@@ -32,7 +32,7 @@ const Banner = () => {
   return (
     <div className="container">
       <div className="w-full flex gap-[120px]">
-        <div className="max-w-[20%] w-full relative">
+        <div className="max-w-[20%] min-w-[256px] w-full relative">
           <div
             className={`bg-[#FDF9ED] pt-[20px] px-[20px] absolute top-0 left-0 w-full h-full ${
               isOpen ? "translate-x-0" : "-translate-x-full"
@@ -290,7 +290,7 @@ const Banner = () => {
                     <a className="text-[#935253]" href="/">+</a>
                   </button>
           </div>
-          <div className='w-[288px] h-[368px] bg-[#9352530D] rounded-[32px] py-[24px] px-[24px] mb-[10px]'>
+          <div className='w-[288px] h-[368px] bg-[#9352530D] rounded-[32px] py-[24px] px-[24px] mb-[10px] mt-[15px]'>
           <h2 className='font-bold text-lg mb-[10px]'>Recommended for you</h2>
           <p className='font-normal text-xs text-[#766057B2] mb-[10px]'>Based on your recent pastry selections</p>
           <div className='w-[240px] h-[244px] rounded-[32px] bg-white py-[16px] px-[16px]'>
